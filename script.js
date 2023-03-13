@@ -54,3 +54,6 @@ if(!arrDay[dayNumber]){
 }else{
     console.log(arrDay[dayNumber]);
 }
+
+// Ternary if else 
+!arrDay[dayNumber] ? console.log("Invalid day number") : console.log(arrDay[dayNumber]);
