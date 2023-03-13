@@ -1,7 +1,7 @@
 // Variable dayNumber
 // 0,1,2,3,4,5,6
 // S,M,T,W,T,F,S
-const dayNumber = 0;
+const dayNumber = 1;
 // Variable day
 let day;
 // Switch by dayNumver
@@ -41,3 +41,16 @@ switch (dayNumber) {
 }
 // Show Output day
 console.log(day);
+
+/*
+    FOR FUN
+*/
+// Set All day into array
+let arrDay = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+// Condition check if arrDay[dayNumber] === undefined
+if(!arrDay[dayNumber]){
+    console.log("Invalid day number");
+// Condition check if arrDay[dayNumber] >= 0 || arrDay[dayNumber] < 7
+}else{
+    console.log(arrDay[dayNumber]);
+}
