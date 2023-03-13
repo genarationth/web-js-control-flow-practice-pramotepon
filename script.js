@@ -57,3 +57,7 @@ if(!arrDay[dayNumber]){
 
 // Ternary if else 
 !arrDay[dayNumber] ? console.log("Invalid day number") : console.log(arrDay[dayNumber]);
+
+// Arrow Function 
+const showDay = (dayNumber) => (!arrDay[dayNumber] ? "Invalid day number" : arrDay[dayNumber]);
+console.log(showDay(0));
