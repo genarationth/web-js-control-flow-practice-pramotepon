@@ -39,4 +39,5 @@ switch (dayNumber) {
         day = "Invalid day number";
         break;
 }
+// Show Output day
 console.log(day);
